@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Catálogo de Produtos</h1>
+        <div id="productCatalog" class="catalog"></div>
+        <h2>Carrinho de Compras</h2>
+        <div id="cart" class="cart">
+            <p id="cartEmptyMessage">O carrinho está vazio.</p>
+            <ul id="cartItems"></ul>
+            <div id="cartTotal" class="cart-total"></div>
+            <div id="shipping">
+                <input type="text" id="zipcode" placeholder="Digite seu CEP">
+                <button id="calculateShipping">Calcular Frete</button>
+                <div id="shippingCost"></div>
+            </div>
+            <button id="checkoutButton" disabled>Finalizar Compra</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

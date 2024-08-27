@@ -1,0 +1,133 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para a seção do carrinho */
+#cart {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+/* Estilo para a mensagem de carrinho vazio */
+#cartEmptyMessage {
+    display: none;
+    color: #888;
+    font-style: italic;
+}
+
+#productCatalog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    width: calc(23.333% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#cart {
+    margin-top: 20px;
+}
+
+#cartItems {
+    list-style: none;
+    padding: 0;
+}
+
+#cartItems li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+#cartEmptyMessage {
+    display: none;
+    font-style: italic;
+}
+
+#checkoutButton {
+    background: #28a745;
+}
+
+#checkoutButton:hover {
+    background: #218838;
+}
+
+#zipcode {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#calculateShipping {
+    background: #17a2b8;
+    color: #fff;
+}
+
+#calculateShipping:hover {
+    background: #117a8b;
+}
+
+#shippingCost {
+    margin-top: 10px;
+    font-weight: bold;
+}
+#checkoutButton {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+/* Efeito hover para o botão de finalizar compra */
+#checkoutButton:hover {
+    background-color: #218838;
+}
+
+/* Certifique-se de que todos os elementos estão centralizados */
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
